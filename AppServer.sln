@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices.Tests", "WebServices.Tests\WebServices.Tests.csproj", "{C56FC932-0D20-4FD6-AA19-AC1D903F7E75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9C812D65-6FE4-48B1-B972-38E0BD703C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{F8CB8C7B-C790-45A0-BD6B-2C35CE3FEF01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C56FC932-0D20-4FD6-AA19-AC1D903F7E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56FC932-0D20-4FD6-AA19-AC1D903F7E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56FC932-0D20-4FD6-AA19-AC1D903F7E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C812D65-6FE4-48B1-B972-38E0BD703C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C812D65-6FE4-48B1-B972-38E0BD703C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C812D65-6FE4-48B1-B972-38E0BD703C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C812D65-6FE4-48B1-B972-38E0BD703C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CB8C7B-C790-45A0-BD6B-2C35CE3FEF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CB8C7B-C790-45A0-BD6B-2C35CE3FEF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CB8C7B-C790-45A0-BD6B-2C35CE3FEF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CB8C7B-C790-45A0-BD6B-2C35CE3FEF01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

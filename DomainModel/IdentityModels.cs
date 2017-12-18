@@ -3,9 +3,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
-using DomainModel;
 
-namespace WebServices.Models
+namespace DomainModel
 {
     // Чтобы добавить данные профиля для пользователя, можно добавить дополнительные свойства в класс ApplicationUser. Дополнительные сведения см. по адресу: http://go.microsoft.com/fwlink/?LinkID=317594.
     public class ApplicationUser : IdentityUser
@@ -17,26 +16,6 @@ namespace WebServices.Models
             // Здесь добавьте настраиваемые утверждения пользователя
             return userIdentity;
         }
-
-        public string Name { get; set; }
-
-        public string Lastname { get; set; }
-
-        public Applicant Applicant { get; set; }
-
-        public Employee Employee { get; set; }
     }
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
-    {
-        public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
-        {
-        }
-        
-        public static ApplicationDbContext Create()
-        {
-            return new ApplicationDbContext();
-        }
-    }
 }
